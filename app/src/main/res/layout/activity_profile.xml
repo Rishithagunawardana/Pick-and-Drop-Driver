@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".profile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:src="@drawable/f1"
+        android:id="@+id/photo"/>
+
+    <ImageView
+        android:layout_width="370sp"
+        android:layout_height="170sp"
+        android:layout_marginLeft="23sp"
+        android:layout_marginRight="23sp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="210sp"
+        android:background="@drawable/buttonrouded2" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:id="@+id/photo2"
+        android:src="@drawable/f1"
+        android:layout_marginTop="226sp"
+        android:layout_marginLeft="40sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="53sp"
+        android:layout_height="53sp"
+        android:id="@+id/upload"
+        android:src="@drawable/cam"
+        android:layout_marginTop="306sp"
+        android:layout_marginLeft="115sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="270sp"
+        android:text="Username"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        android:id="@+id/username"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="189sp"
+        android:layout_marginTop="303sp"
+        android:text="Nic"
+        android:textColor="#050505"
+        android:textSize="19sp"
+        android:id="@+id/nic"/>
+
+    <ImageView
+        android:layout_width="370sp"
+        android:layout_height="250sp"
+        android:layout_marginLeft="23sp"
+        android:layout_marginRight="23sp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="400sp"
+        android:background="@drawable/outblue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69sp"
+        android:layout_marginTop="450sp"
+        android:text="Address :-"
+        android:textColor="@color/purple_700"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="189sp"
+        android:layout_marginTop="450sp"
+        android:text="Address"
+        android:textColor="#050505"
+        android:textSize="19sp"
+        android:id="@+id/address"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69sp"
+        android:layout_marginTop="490sp"
+        android:text="Phone No :-"
+        android:textColor="@color/purple_700"
+        android:textSize="19sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="189sp"
+        android:layout_marginTop="490sp"
+        android:text="0754568552"
+        android:textColor="#050505"
+        android:textSize="19sp"
+        android:id="@+id/phone"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69sp"
+        android:layout_marginTop="530sp"
+        android:text="Email :-"
+        android:textColor="@color/purple_700"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="189sp"
+        android:layout_marginTop="530sp"
+        android:text="Address"
+        android:textColor="#050505"
+        android:textSize="19sp"
+        android:id="@+id/email"/>
+
+    <TextView
+        android:id="@+id/ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="570sp"
+        android:text="Verify the Email Now "
+        android:textColor="@color/purple_700"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="600sp"
+        android:text="Request For Password Reset  "
+        android:textColor="@color/purple_700"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="660sp"
+        android:text="Back"
+        app:backgroundTint="#2196F3" />
+
+</RelativeLayout>

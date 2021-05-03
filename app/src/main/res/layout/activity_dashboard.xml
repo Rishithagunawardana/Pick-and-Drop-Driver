@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230sp"
+        android:src="@drawable/f1"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120sp"
+        android:id="@+id/userphoto"
+        android:layout_height="120sp"
+        android:src="@drawable/avatar"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greetings"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="90sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIC No"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="130sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/reqtrip"
+        android:onClick="toreq"
+        android:layout_width="370sp"
+        android:layout_height="120sp"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="250sp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149sp"
+        android:layout_marginTop="293sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text=" Requested Trips"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:src="@drawable/req"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="273sp"/>
+
+
+
+    <ImageView
+        android:id="@+id/prof"
+        android:layout_width="370sp"
+        android:layout_height="120sp"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="390sp">
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152sp"
+        android:layout_marginTop="433sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Profile"
+        />
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:src="@drawable/prof"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="413sp"/>
+
+
+    <ImageView
+        android:id="@+id/recent"
+        android:layout_width="370sp"
+        android:layout_height="120sp"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="530sp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152sp"
+        android:layout_marginTop="565sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Recent Trips"
+        />
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:src="@drawable/recent"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="553sp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="660sp"
+        android:text="Logout"
+        app:backgroundTint="#2196F3" />
+    <Button
+        android:id="@+id/reqdetailupdate"
+        android:layout_width="170sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="21sp"
+        android:layout_marginTop="660sp"
+        android:text="Request for Detail Update"
+        app:backgroundTint="#2196F3" />
+
+</RelativeLayout>

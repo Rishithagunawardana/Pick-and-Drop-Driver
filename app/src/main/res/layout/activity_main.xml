@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="500sp"
+            android:layout_height="310sp"
+            android:layout_marginTop="-27sp"
+            android:src="@drawable/back3"/>
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="70sp"
+          android:layout_height="70sp"
+          android:layout_marginLeft="30sp"
+          android:layout_marginTop="60sp"
+          android:src="@drawable/logonew">
+      </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="140sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:text="Welcome Back"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="180sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:text="Login to Continue"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="325sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:backgroundTint="#656464"
+        android:layout_width="340sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="355sp"
+        android:textColor="#000000"
+        android:textColorHint="#656464"
+        android:hint="Enter Your Email"
+        android:layout_marginLeft="30sp"
+        android:textColorHighlight="#FFFFFF" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="420sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/forgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="455sp"
+        android:text="Forget"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#2196F3"/>
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="340sp"
+        android:layout_height="45sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="455sp"
+        android:backgroundTint="#656464"
+        android:hint="Enter your Password"
+        android:textColorHint="#656464"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF" />
+
+
+<ImageView
+    android:id="@+id/login"
+    android:layout_width="340sp"
+    android:layout_height="48sp"
+    android:layout_marginLeft="30sp"
+    android:background="@drawable/back3"
+    android:layout_marginTop="530sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="537sp"
+        android:layout_marginLeft="160sp"/>
+</RelativeLayout>
